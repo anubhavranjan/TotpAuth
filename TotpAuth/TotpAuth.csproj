@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Anubhav Ranjan</Authors>
+    <Company />
+    <Description>Tiny library that allows you to Generate and Check TOTP.
+Based on TwoStepsAuthenticator
+https://github.com/glacasa/TwoStepsAuthenticator</Description>
+    <PackageLicenseExpression></PackageLicenseExpression>
+    <PackageTags>totp, otp</PackageTags>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/anubhavranjan/TotpAuth</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/anubhavranjan/TotpAuth</RepositoryUrl>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
