@@ -14,6 +14,11 @@ https://github.com/glacasa/TwoStepsAuthenticator</Description>
     <PackageProjectUrl>https://github.com/anubhavranjan/TotpAuth</PackageProjectUrl>
     <RepositoryUrl>https://github.com/anubhavranjan/TotpAuth</RepositoryUrl>
     <LangVersion>8.0</LangVersion>
+	<VersionPrefix>1.0.1</VersionPrefix>
+    <VersionSuffix></VersionSuffix>
+    <AssemblyVersion>1.0.1</AssemblyVersion>
+    <FileVersion>1.0.1</FileVersion>
+    <PackageReleaseNotes>Updated to .Net Standard 2.1</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
