@@ -41,7 +41,6 @@ namespace TotpAuth
             return CheckCode(secret, code, out _);
         }
 
-
         public bool CheckCode(string secret, string code, out DateTime usedDateTime)
         {
             var baseTime = NowFunc();
@@ -50,7 +49,7 @@ namespace TotpAuth
             for (int i = -VerificationRange; i < VerificationRange; i++)
             {
                 var checkTime = baseTime.AddSeconds(IntervalSeconds * i);
-                var checkInterval = GetInterval(checkTime);
+                //var checkInterval = GetInterval(checkTime);
 
                 if (ConstantTimeEquals(GetCode(secret, checkTime), code))
                 {

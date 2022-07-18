@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30621.155
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TotpAuth", "TotpAuth\TotpAuth.csproj", "{399728F6-0D73-4807-8915-27E132859A7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TotpAuth", "TotpAuth\TotpAuth.csproj", "{399728F6-0D73-4807-8915-27E132859A7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TotpAuth.Test", "TotpAuth.Test\TotpAuth.Test.csproj", "{D7498939-7B47-4AD3-ACDB-E41633304ADF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{399728F6-0D73-4807-8915-27E132859A7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{399728F6-0D73-4807-8915-27E132859A7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{399728F6-0D73-4807-8915-27E132859A7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7498939-7B47-4AD3-ACDB-E41633304ADF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7498939-7B47-4AD3-ACDB-E41633304ADF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7498939-7B47-4AD3-ACDB-E41633304ADF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7498939-7B47-4AD3-ACDB-E41633304ADF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
