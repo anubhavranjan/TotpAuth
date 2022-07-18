@@ -11,12 +11,12 @@ TotpAuth.Authenticator.GenerateKey()
 // Example: 5PC4TPFPQPX7HPOS
 
 // Generate OTP
-var totp = new Totp.Authenticator();
+var totp = new TotpAuth.Authenticator();
 totp.GetCode("SECRETKEY"); 
 // Example: 788644
 
 // Validate Code
-var totp = new Totp.Authenticator();
+var totp = new TotpAuth.Authenticator();
 totp.CheckCode("5PC4TPFPQPX7HPOS", "788644"); 
 // Example: true
  
